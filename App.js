@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
 import { SafeAreaView, StyleSheet } from 'react-native';
-import DemoImage from './src/Components/AbstractComponents/demoImage';
-import ImageExample from './src/Components/AbstractComponents/imageExample';
-import ProfileButton from './src/Components/ModuleComponents/ProfileScreen/profileButton';
-import ProfileImgeComponent from './src/Components/ModuleComponents/ProfileScreen/profileImageComponent';
-import ProfileInputFieldComponent from './src/Components/ModuleComponents/ProfileScreen/profileInputFieldComponent';
+//Task 1
 import ProfileScreen from './src/Screens/ProfileScreen';
+//Task 2
+import MyEmoResponseComponent from './src/Components/CompositeComponents/MyEmoResponseComponent';
+
 
 class App extends Component {
   state = {  }
   render() { 
     return ( 
       <SafeAreaView style={style.conatienr}>
-          <ProfileImgeComponent  /> 
+          <MyEmoResponseComponent  /> 
       </SafeAreaView>
     );
   }

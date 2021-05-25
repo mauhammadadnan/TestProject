@@ -4,6 +4,8 @@ import { SafeAreaView, StyleSheet } from 'react-native';
 import ProfileScreen from './src/Screens/ProfileScreen';
 //Task 2
 import MyEmoResponseComponent from './src/Components/CompositeComponents/MyEmoResponseComponent';
+//Task 3
+import ChatScreen from './src/Screens/ChatScreen';
 
 
 class App extends Component {
@@ -11,17 +13,16 @@ class App extends Component {
   render() { 
     return ( 
       <SafeAreaView style={style.conatienr}>
-          <MyEmoResponseComponent  /> 
+          <ChatScreen  /> 
       </SafeAreaView>
     );
   }
 }
  
-export default App;
 const style=StyleSheet.create({
   conatienr:{
     flex:1, 
-    justifyContent:'center',
-    alignItems:'center'
   }
 })
+
+export default App;

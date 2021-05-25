@@ -12,10 +12,10 @@ const MyEmoResponseComponent=(props)=>{
                     emoSize={50}
                     eyeHeight={9}
                     eyeWidth={7}
-                    LEBBLRadius={7}
-                    LEBBRRadius={7}
-                    REBBLRadius={7}
-                    REBBRRadius={7}
+                    LEBBLRadius={7}//Left_Eye_Bordere_Bottom_Left_Radius
+                    LEBBRRadius={7}//Left_Eye_Bordere_Bottom_Right_Radius
+                    REBBLRadius={7}//Right_Eye_Bordere_Bottom_Left_Radius
+                    REBBRRadius={7}//Right_Eye_Bordere_Bottom_Right_Radius
                     lefEyeTransform={[  { skewX: "25deg" },
                     { skewY: "25deg" } ]}
                     rightEyeTransform={[  { skewX: "-25deg" },
@@ -30,10 +30,10 @@ const MyEmoResponseComponent=(props)=>{
                     emoSize={50}
                     eyeHeight={9}
                     eyeWidth={6}
-                    LEBBLRadius={7}
-                    LEBBRRadius={7}
-                    REBBLRadius={7}
-                    REBBRRadius={7}
+                    LEBBLRadius={7}//Left_Eye_Bordere_Bottom_Left_Radius
+                    LEBBRRadius={7}//Left_Eye_Bordere_Bottom_Right_Radius
+                    REBBLRadius={7}//Right_Eye_Bordere_Bottom_Left_Radius
+                    REBBRRadius={7}//Right_Eye_Bordere_Bottom_Right_Radius
                     lefEyeTransform={[  { skewX: "-30deg" },
                     { skewY: "-30deg" } ]}
                     rightEyeTransform={[  { skewX: "30deg" },
@@ -54,14 +54,14 @@ const MyEmoResponseComponent=(props)=>{
                     emoSize={70}
                     eyeHeight={10}
                     eyeWidth={10}
-                    LEBTLRadius={7}
-                    LEBBLRadius={7}
-                    LEBTRRadius={7}
-                    LEBBRRadius={7}
-                    REBTLRadius={7}
-                    REBBLRadius={7}
-                    REBTRRadius={7}
-                    REBBRRadius={7}
+                    LEBTLRadius={7}//Left_Eye_Bordere_Top_Left_Radius
+                    LEBBRRadius={7}//Left_Eye_Bordere_Bottom_Right_Radius
+                    REBBLRadius={7}//Right_Eye_Bordere_Bottom_Left_Radius
+                    REBBRRadius={7}//Right_Eye_Bordere_Bottom_Right_Radius
+                    LEBBLRadius={7}//Left_Eye_Border_Bottom_Left_Radius
+                    LEBTRRadius={7}//Left_Eye_Bordere_Top_Right_Radius
+                    REBTLRadius={7}//Right_Eye_Bordere_Top_Left_Radius
+                    REBTRRadius={7}//Right_Eye_Bordere_Top_Right_Radius
                     lefEyeTransform={[  { skewX: "0deg" },
                     { skewY: "0deg" } ]}
                     rightEyeTransform={[  { skewX: "0deg" },
@@ -76,14 +76,14 @@ const MyEmoResponseComponent=(props)=>{
                     emoSize={50}
                     eyeHeight={7}
                     eyeWidth={7}
-                    LEBTLRadius={7}
-                    LEBBLRadius={7}
-                    LEBTRRadius={7}
-                    LEBBRRadius={7}
-                    REBTLRadius={7}
-                    REBBLRadius={7}
-                    REBTRRadius={7}
-                    REBBRRadius={7}
+                    LEBTLRadius={7}//Left_Eye_Bordere_Top_Left_Radius
+                    LEBBLRadius={7}//Left_Eye_Bordere_Bottom_Left_Radius
+                    LEBTRRadius={7}//Left_Eye_Bordere_Top_Right_Radius
+                    LEBBRRadius={7}//Left_Eye_Bordere_Bottom_Right_Radius
+                    REBTLRadius={7}//Right_Eye_Bordere_Top_Left_Radius
+                    REBBLRadius={7}//Right_Eye_Bordere_Bottom_Left_Radius
+                    REBTRRadius={7}//Right_Eye_Bordere_Top_Right_Radius
+                    REBBRRadius={7}//Right_Eye_Bordere_Bottom_Right_Radius
                     lefEyeTransform={[  { skewX: "0deg" },
                     { skewY: "0deg" } ]}
                     rightEyeTransform={[  { skewX: "0deg" },
@@ -98,14 +98,14 @@ const MyEmoResponseComponent=(props)=>{
                     emoSize={50}
                     eyeHeight={7}
                     eyeWidth={7}
-                    LEBTLRadius={7}
-                    LEBBLRadius={7}
-                    LEBTRRadius={7}
-                    LEBBRRadius={7}
-                    REBTLRadius={7}
-                    REBBLRadius={7}
-                    REBTRRadius={7}
-                    REBBRRadius={7}
+                    LEBTLRadius={7}//Left_Eye_Bordere_Top_Left_Radius
+                    LEBBLRadius={7}//Left_Eye_Bordere_Bottom_Left_Radius
+                    LEBTRRadius={7}//Left_Eye_Bordere_Top_Right_Radius
+                    LEBBRRadius={7}//Left_Eye_Bordere_Bottom_Right_Radius
+                    REBTLRadius={7}//Right_Eye_Bordere_Top_Left_Radius
+                    REBBLRadius={7}//Right_Eye_Bordere_Bottom_Left_Radius
+                    REBTRRadius={7}//Right_Eye_Bordere_Top_Right_Radius
+                    REBBRRadius={7}//Right_Eye_Bordere_Bottom_Right_Radius
                     lefEyeTransform={[  { skewX: "0deg" },
                     { skewY: "0deg" } ]}
                     rightEyeTransform={[  { skewX: "0deg" },

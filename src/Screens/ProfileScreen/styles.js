@@ -1,4 +1,4 @@
-import {StyleSheet, Dimensions, TextComponent} from 'react-native';
+import {StyleSheet, Dimensions} from 'react-native';
 import { SECONDARY_COLOR, TEXT_COLOR, } from '../../Assets/themes/colors';
 import { FONT_SIZE_h2, FONT_SIZE_h3, SIDE_MARGIN } from '../../Assets/themes/fonts';
 

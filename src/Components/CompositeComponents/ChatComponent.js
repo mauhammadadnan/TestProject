@@ -1,13 +1,13 @@
 import React,{useState} from 'react';
 import {View, StyleSheet, FlatList} from 'react-native';
-import SingleChatItem from '../ModuleComponents/ChatScreen/singleChatItem';
+import ChatItem from '../ModuleComponents/ChatScreen/chatItem';
 
 const ChatComponent=(props)=>{
     const [chatList, setChatList]=useState([
         {
             id:1,
             sender:true,
-            message:"Fine",
+            message:"Fineasbdkjabsdkjasdasdasdasdasdasdasaknsdlkajnsdlkaansdknasdnalksdnlkdasdadadasdasdasdasdasdasdasdaasdasdasd",
             time:"11:13",
             size:20,
             svg:`<?xml version="1.0"?>
@@ -70,7 +70,8 @@ const ChatComponent=(props)=>{
                         numColumns={1}
                         keyExtractor={item => `cl${item.id}`}
                         renderItem={({item}) => (
-                            <SingleChatItem 
+                            <ChatItem 
+                                id={item.id}
                                 sender={item.sender}
                                 message={item.message}
                                 time={item.time}

@@ -6,6 +6,8 @@ import ProfileScreen from './src/Screens/ProfileScreen';
 import MyEmoResponseComponent from './src/Components/CompositeComponents/MyEmoResponseComponent';
 //Task 3
 import ChatScreen from './src/Screens/ChatScreen';
+import FormValidation from './src/Components/AbstractComponents/formValidation';
+import Box from './src/Components/AbstractComponents/animatedMessage';
 
 
 class App extends Component {
@@ -13,7 +15,7 @@ class App extends Component {
   render() { 
     return ( 
       <SafeAreaView style={style.conatienr}>
-          <ChatScreen  /> 
+          <Box  /> 
       </SafeAreaView>
     );
   }
